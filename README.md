@@ -41,14 +41,24 @@ listed below:
   
 ## Running Files
 In order to install required packages using **requirements_py3.8.txt** run the following command:
-"*python -m pip install -r requirements_py3.8.txt*".
+```
+python -m pip install -r requirements_py3.8.txt
+```
 
 The package can be run interactively or from the command-line interface.
 
-To execute chunk_library.py, run "*python.exe chunk_library.py*" in terminal. This reads data, creates plots in the images/eda, builds model,
+To execute chunk_library.py, run 
+```
+python.exe chunk_library.py
+``` 
+in terminal. This reads data, creates plots in the images/eda, builds model,
 saves model into models folder and results into images/results.
 
-To execute churn_script_logging_and_tests.py, run "*python.exe churn_script_logging_and_tests.py*" in terminal. 
+To execute churn_script_logging_and_tests.py, run 
+```
+python.exe churn_script_logging_and_tests.py
+``` 
+in terminal. 
 Results of the tests are logged in ./logs/churn_library.log.
 
 
